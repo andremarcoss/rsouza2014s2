@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Site.Domain.Concrete.EFDbContext">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAYAAAAEAAIAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\EFDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Site.Domain.Concrete.EFMotivoRepository" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAIAAAAAAAAAAAAAAAAAABAAAABAAAAAAA=</HashCode>
+      <FileName>Concrete\EFMotivoRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="Site.Domain.Concrete.EFMotoristaRepository" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAACAA=</HashCode>
+      <FileName>Concrete\EFMotoristaRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="Site.Domain.Concrete.EFParentescoRepository" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\EFParentescoRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="Site.Domain.Concrete.EFRemessaRepository" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAIAABAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Concrete\EFRemessaRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="Site.Domain.Concrete.EFTransportadoraRepository" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\EFTransportadoraRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.131" Collapsed="true" />
+  </Class>
+  <Class Name="Site.Domain.Entities.Motivo">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Motivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Site.Domain.Entities.Motorista">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Entities\Motorista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Site.Domain.Entities.Parentesco">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Entities\Parentesco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Site.Domain.Entities.Remessa">
+    <Position X="2.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAwAAICAAQAAAICDAGDECAAAAAACEAAACA=</HashCode>
+      <FileName>Entities\Remessa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Site.Domain.Entities.Transportadora">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEgAAAAIAAAAEAAAgAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Transportadora.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Site.Domain.Abstract.IMotivoRepository">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAAABAAAAAAA=</HashCode>
+      <FileName>Abstract\IMotivoRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Site.Domain.Abstract.IMotoristaRepository">
+    <Position X="9" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAACAA=</HashCode>
+      <FileName>Abstract\IMotoristaRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Site.Domain.Abstract.IParentescoRepository">
+    <Position X="6.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\IParentescoRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Site.Domain.Abstract.IRemessaRepository">
+    <Position X="9" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Abstract\IRemessaRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Site.Domain.Abstract.ITransportadoraRepository">
+    <Position X="6.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\ITransportadoraRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

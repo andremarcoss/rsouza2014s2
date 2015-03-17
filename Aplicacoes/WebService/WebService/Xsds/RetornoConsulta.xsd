@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="retornoConsulta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="status" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="mensagem" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="total" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="remessas" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="remessa" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="motoristaCpf" type="xs:string"/>
+                    <xs:element name="romaneio" type="xs:string"/>
+                    <xs:element name="identificador" type="xs:string"/>
+                    <xs:element name="notaFiscal" type="xs:string"/>
+                    <xs:element name="pedido" type="xs:string"/>
+                    <xs:element name="dataEntrega" type="xs:dateTime"/>
+                    <xs:element name="ocorrencia" type="xs:string"/>
+                    <xs:element name="idOcorrencia" type="xs:string"/>
+                    <xs:element name="parentesco" type="xs:string"/>
+                    <xs:element name="observacao" type="xs:string"/>
+                    <xs:element name="protocolo" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

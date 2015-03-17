@@ -1,0 +1,10 @@
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\webServiceTcc\bin\webServiceTcc.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\webServiceTcc\bin\webServiceTcc.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\webServiceTcc\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\webServiceTcc\obj\Debug\webServiceTcc.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\webServiceTcc\obj\Debug\webServiceTcc.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\WebService\bin\WebService.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\WebService\bin\WebService.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\WebService\obj\Debug\WebService.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\WebService\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache

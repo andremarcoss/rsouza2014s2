@@ -1,0 +1,9 @@
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\bin\Debug\Tcc2014.UnitTests.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\bin\Debug\Tcc2014.UnitTests.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\bin\Debug\Moq.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\bin\Debug\Ninject.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\bin\Debug\Moq.xml
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\bin\Debug\Ninject.xml
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\obj\Debug\Tcc2014.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\obj\Debug\Tcc2014.UnitTests.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.UnitTests\obj\Debug\Tcc2014.UnitTests.pdb

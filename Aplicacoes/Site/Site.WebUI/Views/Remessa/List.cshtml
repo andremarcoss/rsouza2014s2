@@ -1,0 +1,35 @@
+﻿@model Site.WebUI.Models.RemessaListViewModel
+
+@{
+    Site.WebUI.Models.LoginViewModel login = (Site.WebUI.Models.LoginViewModel)Session["Login"];
+    ViewBag.Title = "Remessas";
+    ViewBag.ReturnUrl = "/Home/Index";
+    ViewBag.Lista = string.Format("/Remessa/List/{0}", login.Usuario);
+    ViewBag.AlterarSenha = "/Account/AlterarSenha";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.Remessas.Count() > 0)
+{
+    foreach (var rm in Model.Remessas)
+    {
+    <div class="row">
+        <h4>@rm.rmsDestinatarioEntrega</h4>
+        <div>
+            @string.Format("CEP: {0} - {1}/{2}", rm.rmsCepEntrega, rm.rmsCidadeEntrega, rm.rmsUFEntrega)
+        </div>
+        <div>
+            Endereço: @rm.rmsEnderecoEntrega
+        </div>
+        <div>
+            @Html.ActionLink("Finalizar", "Detail", "Remessa", new { id = @rm.rmsChave }, new { @class = "btn btn-primary btn-lg active btn-xs", @role = "button" })
+        </div>
+    </div>
+    }
+}
+else
+{
+    <div>
+        <h1>Sem entregas pendentes</h1>
+    </div>
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="retornoEnvio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="retornoOperacao" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="status" type="xs:string"/>
+              <xs:element name="mensagem" type="xs:string"/>
+              <xs:element name="detalheErro" type="xs:string" minOccurs="0"/>
+              <xs:element name="idRetorno" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SistemaDeEntregas", "SistemaDeEntregas\SistemaDeEntregas.ssmssqlproj", "{5F702905-27A2-445F-BD5A-532EC2C85520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Padrão|Default = Padrão|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F702905-27A2-445F-BD5A-532EC2C85520}.Padrão|Default.ActiveCfg = Padrão
+		{00000000-0000-0000-0000-000000000000}.Padrão|Default.ActiveCfg = Padrão
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

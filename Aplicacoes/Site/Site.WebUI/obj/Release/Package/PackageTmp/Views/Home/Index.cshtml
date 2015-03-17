@@ -1,0 +1,11 @@
+﻿@{
+    Site.WebUI.Models.LoginViewModel login = (Site.WebUI.Models.LoginViewModel)Session["Login"];
+    ViewBag.Title = "Inicio";
+    ViewBag.Lista = string.Format("/Remessa/List/{0}", login.Usuario);
+    ViewBag.AlterarSenha = "/Account/AlterarSenha";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Inicio</h1>
+
+<h3>Selecione uma ação na barra de menus</h3>

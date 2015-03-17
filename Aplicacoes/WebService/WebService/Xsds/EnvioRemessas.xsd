@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="envio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="transportadoraCnpj" type="xs:string" />
+        <xs:element name="chave" type="xs:string" />
+        <xs:element name="remessas" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="remessa" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="motoristaCpf" type="xs:string" />
+                    <xs:element name="motoristaNome" type="xs:string" />
+                    <xs:element name="romaneio" type="xs:string" />
+                    <xs:element name="destinatarioEntrega" type="xs:string" />
+                    <xs:element name="identificador" type="xs:string" />
+                    <xs:element name="notaFiscal" type="xs:string" />
+                    <xs:element name="pedido" type="xs:string" />
+                    <xs:element name="totalVolumes" type="xs:string"/>
+                    <xs:element name="enderecoEntrega" type="xs:string" />
+                    <xs:element name="cidadeEntrega" type="xs:string"/>
+                    <xs:element name="cepEntrega" type="xs:string" />
+                    <xs:element name="ufEntrega" type="xs:string" />
+                    <xs:element name="observacaoEnderecoEntrega" type="xs:string" />
+                    <xs:element name="idRetorno" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

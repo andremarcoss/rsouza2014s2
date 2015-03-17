@@ -1,0 +1,10 @@
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\bin\Release\Tcc2014.Domain.dll.config
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\bin\Release\Tcc2014.Domain.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\bin\Release\Tcc2014.Domain.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\bin\Release\EntityFramework.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\bin\Release\EntityFramework.xml
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\obj\Release\Tcc2014.Domain.csprojResolveAssemblyReference.cache
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\obj\Release\Tcc2014.Domain.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\Tcc2014\Tcc2014.Domain\obj\Release\Tcc2014.Domain.pdb

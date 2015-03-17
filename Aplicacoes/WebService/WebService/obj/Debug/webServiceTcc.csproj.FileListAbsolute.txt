@@ -1,0 +1,10 @@
+C:\Users\rafael.sousa\Documents\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\bin\webServiceTcc.dll
+C:\Users\rafael.sousa\Documents\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\bin\webServiceTcc.pdb
+C:\Users\rafael.sousa\Documents\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\obj\Debug\webServiceTcc.csprojResolveAssemblyReference.cache
+C:\Users\rafael.sousa\Documents\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\obj\Debug\webServiceTcc.dll
+C:\Users\rafael.sousa\Documents\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\obj\Debug\webServiceTcc.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\bin\webServiceTcc.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\bin\webServiceTcc.pdb
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\obj\Debug\webServiceTcc.csprojResolveAssemblyReference.cache
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\obj\Debug\webServiceTcc.dll
+C:\Users\rafael.sousa\OneDrive\TCC 2014\Aplicacoes\webServiceTcc\webServiceTcc\obj\Debug\webServiceTcc.pdb

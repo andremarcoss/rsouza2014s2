@@ -1,0 +1,33 @@
+﻿@model Site.WebUI.Models.RemesssaViewModel
+
+@{
+    Site.WebUI.Models.LoginViewModel login = (Site.WebUI.Models.LoginViewModel)Session["Login"];
+    ViewBag.Title = "Detalhes";
+    ViewBag.ReturnUrl = string.Format("/Remessa/List/{0}", login.Usuario);
+    ViewBag.Lista = string.Format("/Remessa/List/{0}", login.Usuario);
+    ViewBag.AlterarSenha = "/Account/AlterarSenha";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="form-group" role="form">
+    @using (@Html.BeginForm("Detail", "Remessa", new { id = Model.remessa.rmsChave, motorista = Model.remessa.rmsMotorista.Trim() }))
+    {
+        @Html.ValidationSummary(true);
+        
+        <h1>@Model.remessa.rmsDestinatarioEntrega</h1>
+        <div>
+            <p>Endereço: @Model.remessa.rmsEnderecoEntrega</p>
+            <p>Referência: @Model.remessa.rmsObservacaoEnderecoEntrega</p>
+            <p>Cidade: @Model.remessa.rmsCidadeEntrega</p>
+            <p>Nota Fiscal: @Model.remessa.rmsNotaFiscal</p>
+            <p>Pedido: @Model.remessa.rmsPedido </p>
+            <p>Identificador: @Model.remessa.rmsIdentificador</p>
+            <p>Total de Volumes: @Model.remessa.rmsTotalVolumes</p>
+            <p>Motivo: @Html.DropDownListFor(x => x.motivoId, ViewBag.Motivos as SelectList)</p>
+            <p>Parentesco: @Html.DropDownListFor(x => x.parentescoId, ViewBag.Parentescos as SelectList)</p>
+            <p>Obs: @Html.TextAreaFor(x => x.observacao)</p>
+        </div>
+        <br />
+        
+        <input type="submit" value="Finalizar" class="btn btn-success" />
+    }
+</div>
